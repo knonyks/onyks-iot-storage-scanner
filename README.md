@@ -15,3 +15,4 @@
 - [ ] Scheme for camera connector
 - [ ] Logic level conventers for camera
 - [ ] Scheme for display connerctor
+- [ ] Scheme for usb connector
