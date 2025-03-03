@@ -2,7 +2,7 @@
 
 | **OEM code** | **Notes** | **Datasheet links** |
 | --- | --- | --- |
-| ESP32-S3 | Voltage: 3.3V/1.8V | - https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf <br /> - https://www.espressif.com/sites/default/files/documentation/esp32-s3_technical_reference_manual_en.pdf | 
+| ESP32-S3 | Voltage: 3.3V/1.8V | - https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf <br /> - https://www.espressif.com/sites/default/files/documentation/esp32-s3_technical_reference_manual_en.pdf <br /> - https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/user_guide.html#hardware-reference | 
 
 # List of external components for inv scanner:
 
