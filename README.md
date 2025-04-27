@@ -12,7 +12,11 @@
 ## TODO
 - [x] Picking elements
 - [x] Basic scheme for ESP32
-- [ ] Scheme for camera connector
+- [x] Scheme for camera connector
 - [ ] Logic level conventers for camera
 - [ ] Scheme for display connerctor
-- [ ] Scheme for usb connector
+- [x] Scheme for usb 
+- [ ] Scheme for DC-DC buck-boost converter (probably TPS63001)
+- [x] Scheme for battery charging
+- [x] Battery protection
+- [ ] Calculate total power demand
