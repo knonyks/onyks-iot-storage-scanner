@@ -21,4 +21,5 @@
 
 # Other reference materials:
 
-- https://docs.espressif.com/projects/esp-techpedia/en/latest/esp-friends/solution-introduction/camera/dvp-camera-solution.html
+- https://docs.espressif.com/projects/esp-techpedia/en/latest/esp-friends/solution-introduction/camera/dvp-camera-solution.html 
+- https://sklep.msalamon.pl/produkt/ladowarka-li-ion-li-pol-z-buforem-tp4056-1a-usb-c/
