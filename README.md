@@ -13,10 +13,13 @@
 - [x] Picking elements
 - [x] Basic scheme for ESP32
 - [x] Scheme for camera connector
-- [ ] Logic level conventers for camera
+- [ ] Ensure compatibility of IO voltage for camera with internal flash voltage regulator
 - [ ] Scheme for display connerctor
 - [x] Scheme for usb 
-- [ ] Scheme for DC-DC buck-boost converter (probably TPS63001)
+- [x] Scheme for DC-DC buck-boost converter (probably TPS63021)
+- [ ] Scheme for DC-DC buck converter from 3v3 to 1v8
+- [ ] Scheme for DC-DC buck converter from 3v3 to 2v8
+- [ ] Scheme for DC-DC buck converter form 3v3 to 1v5
 - [x] Scheme for battery charging
 - [x] Battery protection
-- [ ] Calculate total power demand
+- [x] Calculate total power demand
