@@ -23,3 +23,4 @@
 - [x] Scheme for battery charging
 - [x] Battery protection
 - [x] Calculate total power demand
+drejkson test 
