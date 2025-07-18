@@ -21,9 +21,9 @@ Also ESP32S3 offers posibility to use 1.8V I/O logic voltage, however it's confi
 - [x] Picking elements
 - [x] Basic scheme for ESP32
 - [x] Scheme for camera connector
-- [ ] Ensure compatibility of IO voltage for camera with internal flash voltage regulator
-- [ ] logic converter 1.8V to 3.3V (for display)
-- [ ] Scheme for display connerctor
+- [x] Ensure compatibility of IO voltage for camera with internal flash voltage regulator
+- [x] logic converter 1.8V to 3.3V (for display)
+- [x] Scheme for display connerctor
 - [x] Scheme for usb 
 - [x] Scheme for DC-DC buck-boost converter (probably TPS63021)
 - [x] Scheme for DC-DC buck converter from 3v3 to 1v8
@@ -33,3 +33,7 @@ Also ESP32S3 offers posibility to use 1.8V I/O logic voltage, however it's confi
 - [x] Battery protection
 - [x] Calculate total power demand
 - [x] Ensure correct time sequence for voltage suppies (boot: first DOVDD=1.8V, next AVDD = 2.8V, for turn off in reverse - optional)
+- [ ] Properly connect cammera to esp32 pins
+- [ ] Properly connect display to esp32 pins
+- [ ] Properly connect enable of logic converter to esp32 pins
+- [ ] Idea of power saving / sleep mode for voltage supply
