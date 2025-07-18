@@ -7,6 +7,14 @@
 <br />
 <br />
 
+## INFO
+
+### Voltage Supply
+
+We gonna use 1.8V logic for cammera with its internal voltage regulator for 1.5V. Thus there is no need for 1.5V DC-DC buck.
+
+Also ESP32S3 offers posibility to use 1.8V I/O logic voltage, however it's configurable for whole GPIO, so it's necesssary to use logic converter 1.8V to 3.3V (or 5V) for display. Main reason for that its conv for two lines instead of 8 lines for cammera communication.
+
 ---
 
 ## TODO
@@ -14,13 +22,14 @@
 - [x] Basic scheme for ESP32
 - [x] Scheme for camera connector
 - [ ] Ensure compatibility of IO voltage for camera with internal flash voltage regulator
-- [ ] - logic converter
+- [ ] logic converter 1.8V to 3.3V (for display)
 - [ ] Scheme for display connerctor
 - [x] Scheme for usb 
 - [x] Scheme for DC-DC buck-boost converter (probably TPS63021)
-- [ ] Scheme for DC-DC buck converter from 3v3 to 1v8
-- [ ] Scheme for DC-DC buck converter from 3v3 to 2v8
+- [x] Scheme for DC-DC buck converter from 3v3 to 1v8
+- [x] Scheme for DC-DC buck converter from 3v3 to 2v8
 - [ ] ~~Scheme for DC-DC buck converter form 3v3 to 1v5~~
 - [x] Scheme for battery charging
 - [x] Battery protection
 - [x] Calculate total power demand
+- [x] Ensure correct time sequence for voltage suppies (boot: first DOVDD=1.8V, next AVDD = 2.8V, for turn off in reverse - optional)
