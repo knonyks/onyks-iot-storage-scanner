@@ -20,7 +20,7 @@
 - [x] Scheme for DC-DC buck-boost converter (probably TPS63021)
 - [ ] Scheme for DC-DC buck converter from 3v3 to 1v8
 - [ ] Scheme for DC-DC buck converter from 3v3 to 2v8
-- [ ] ~~ Scheme for DC-DC buck converter form 3v3 to 1v5 ~~
+- [ ] ~~Scheme for DC-DC buck converter form 3v3 to 1v5~~
 - [x] Scheme for battery charging
 - [x] Battery protection
 - [x] Calculate total power demand
