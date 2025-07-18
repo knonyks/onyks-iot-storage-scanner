@@ -26,10 +26,10 @@ Also ESP32S3 offers posibility to use 1.8V I/O logic voltage, however it's confi
 - [ ] Scheme for display connerctor
 - [x] Scheme for usb 
 - [x] Scheme for DC-DC buck-boost converter (probably TPS63021)
-- [ ] Scheme for DC-DC buck converter from 3v3 to 1v8
-- [ ] Scheme for DC-DC buck converter from 3v3 to 2v8
+- [x] Scheme for DC-DC buck converter from 3v3 to 1v8
+- [x] Scheme for DC-DC buck converter from 3v3 to 2v8
 - [ ] ~~Scheme for DC-DC buck converter form 3v3 to 1v5~~
 - [x] Scheme for battery charging
 - [x] Battery protection
 - [x] Calculate total power demand
-- [ ] Ensure correct time sequence for voltage suppies (boot: first DOVDD=1.8V, next AVDD = 2.8V, for turn off in reverse - optional)
+- [x] Ensure correct time sequence for voltage suppies (boot: first DOVDD=1.8V, next AVDD = 2.8V, for turn off in reverse - optional)
