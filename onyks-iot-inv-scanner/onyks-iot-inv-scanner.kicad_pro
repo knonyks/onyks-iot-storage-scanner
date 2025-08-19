@@ -606,6 +606,10 @@
     [
       "3a8e3de0-246a-4bb7-adfc-ce073b136356",
       "Power Supply"
+    ],
+    [
+      "60dd132f-38fe-4109-a5ef-52ae6d766f8a",
+      "Camera"
     ]
   ],
   "text_variables": {}
