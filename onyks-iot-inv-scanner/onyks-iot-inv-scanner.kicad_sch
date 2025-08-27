@@ -3804,10 +3804,6 @@
 		(uuid "ecbebcab-0e3a-468e-85a4-463e5c53cfa9")
 	)
 	(no_connect
-		(at 234.95 43.18)
-		(uuid "06be7997-51f1-4292-b051-f61e077b79ab")
-	)
-	(no_connect
 		(at 43.18 151.13)
 		(uuid "0bc06bc0-1828-445f-89f6-e6675980dbec")
 	)
@@ -3870,6 +3866,10 @@
 	(no_connect
 		(at 234.95 40.64)
 		(uuid "bf6c5fb7-4a69-486f-b6b7-4f96c8738f78")
+	)
+	(no_connect
+		(at 234.95 45.72)
+		(uuid "cf9dd03c-ae1d-4d05-99f4-6f6cd7d0718b")
 	)
 	(no_connect
 		(at 265.43 78.74)
@@ -4839,7 +4839,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 45.72) (xy 234.95 45.72)
+			(xy 220.98 43.18) (xy 234.95 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5298,7 +5298,7 @@
 		(uuid "5e437b5a-bfbf-43c7-93c0-281c1d84f5e0")
 	)
 	(label "camera_enable"
-		(at 220.98 45.72 0)
+		(at 220.98 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
