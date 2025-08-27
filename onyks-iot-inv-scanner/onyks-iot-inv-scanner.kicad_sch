@@ -3582,6 +3582,18 @@
 		(uuid 2e5cee3a-4d43-43e6-8982-953704232488)
 	)
 	(rectangle
+		(start 170.18 127)
+		(end 208.28 163.83)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3ef7b45c-8449-4973-b945-644cc454d119)
+	)
+	(rectangle
 		(start 191.262 13.716)
 		(end 281.94 95.25)
 		(stroke
@@ -3629,6 +3641,16 @@
 		)
 		(uuid ce5a1dbe-8af4-4398-b0e6-de66d7e941c4)
 	)
+	(text "Trigger button"
+		(exclude_from_sim no)
+		(at 178.308 129.286 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "250ade83-9077-4f41-bcf1-8cb95940a30b")
+	)
 	(text "State LED"
 		(exclude_from_sim no)
 		(at 153.67 16.256 0)
@@ -3641,7 +3663,7 @@
 	)
 	(text "Programming buttons"
 		(exclude_from_sim no)
-		(at 221.996 129.032 0)
+		(at 220.98 129.032 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3686,10 +3708,22 @@
 		(uuid "0ae7b9c6-8795-4d6b-804d-dffedcc0f9d9")
 	)
 	(junction
+		(at 196.85 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "344d5d9a-3adc-4988-9be5-4a3652a2fd41")
+	)
+	(junction
 		(at 58.42 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "401f386f-fdc3-4ed4-b501-3c10727b7d88")
+	)
+	(junction
+		(at 34.29 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41cef623-cce2-4dd0-951d-caf72131fac0")
 	)
 	(junction
 		(at 43.18 138.43)
@@ -3708,6 +3742,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59946370-2f3a-4dee-8166-308f3bba5e3e")
+	)
+	(junction
+		(at 176.53 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "797688e4-e2e7-4af9-b556-3674578dfc1f")
 	)
 	(junction
 		(at 27.94 185.42)
@@ -3983,13 +4023,23 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 19.05) (xy 38.1 19.05)
+			(xy 16.51 19.05) (xy 34.29 19.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2c62cc84-471d-4303-8f12-65a18b9a0670")
+	)
+	(wire
+		(pts
+			(xy 176.53 149.86) (xy 182.88 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d2aff55-96e1-4681-80e8-ee1d239d5e2a")
 	)
 	(wire
 		(pts
@@ -4013,6 +4063,26 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 139.7) (xy 201.93 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33dd1f4b-55e4-42de-8339-a4039ed14341")
+	)
+	(wire
+		(pts
+			(xy 190.5 149.86) (xy 196.85 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3567ea91-f846-4d5f-9709-04bbe950e6d2")
+	)
+	(wire
+		(pts
 			(xy 231.14 139.7) (xy 236.22 139.7)
 		)
 		(stroke
@@ -4020,6 +4090,16 @@
 			(type default)
 		)
 		(uuid "38c5e2ff-86c8-4914-a264-87f0dc343f91")
+	)
+	(wire
+		(pts
+			(xy 176.53 149.86) (xy 176.53 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "391334f1-9daf-4666-b6d1-fca42b6d0df4")
 	)
 	(wire
 		(pts
@@ -4243,6 +4323,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 139.7) (xy 196.85 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "762911ef-e736-4567-905b-30528c0f2a0f")
+	)
+	(wire
+		(pts
 			(xy 220.98 71.12) (xy 234.95 71.12)
 		)
 		(stroke
@@ -4300,6 +4390,16 @@
 			(type default)
 		)
 		(uuid "878fd509-a50e-45ed-bbcc-a075dcb410ca")
+	)
+	(wire
+		(pts
+			(xy 34.29 19.05) (xy 38.1 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eac4db2-91ee-47a0-9c9a-17ce5203bd87")
 	)
 	(wire
 		(pts
@@ -4370,6 +4470,16 @@
 			(type default)
 		)
 		(uuid "a504a001-d838-43c4-a064-77fb8ccf7f5f")
+	)
+	(wire
+		(pts
+			(xy 176.53 139.7) (xy 176.53 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a66096cb-41a4-4dbe-b34c-cc1ec139b046")
 	)
 	(wire
 		(pts
@@ -4473,6 +4583,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 149.86) (xy 196.85 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb53dab5-1f81-4e2e-896c-404b70d08169")
+	)
+	(wire
+		(pts
 			(xy 220.98 63.5) (xy 234.95 63.5)
 		)
 		(stroke
@@ -4510,6 +4630,16 @@
 			(type default)
 		)
 		(uuid "d2356a07-3609-4588-9946-7ff4748e712d")
+	)
+	(wire
+		(pts
+			(xy 38.1 39.37) (xy 34.29 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2a316d2-e010-4ceb-85f8-430841015367")
 	)
 	(wire
 		(pts
@@ -4683,6 +4813,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 39.37) (xy 34.29 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eba73e9c-ebfb-467b-83fa-edb94a1122d0")
+	)
+	(wire
+		(pts
 			(xy 177.8 36.83) (xy 185.42 36.83)
 		)
 		(stroke
@@ -4783,6 +4923,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 139.7) (xy 176.53 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5d45eb1-b96b-441d-a7ca-5214a1bad899")
+	)
+	(wire
+		(pts
 			(xy 152.4 54.61) (xy 152.4 57.15)
 		)
 		(stroke
@@ -4870,6 +5020,16 @@
 			(justify right bottom)
 		)
 		(uuid "0f3e4a96-530a-4e13-bcbe-d62a3f8d158f")
+	)
+	(label "EN"
+		(at 201.93 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1271062f-86f4-4b06-9a25-d21c3af92e59")
 	)
 	(label "IO40"
 		(at 278.13 63.5 180)
@@ -5312,6 +5472,73 @@
 		(uuid "fbe5a029-f17b-4192-8726-49fc02236a67")
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 186.69 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "090efcde-4d5c-43d9-884e-f37f16123896")
+		(property "Reference" "C20"
+			(at 186.69 145.796 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 186.69 153.924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 148.8948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 186.69 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b0ecd28-faed-4a80-95bd-db646911153c")
+		)
+		(pin "2"
+			(uuid "a05001ec-9223-42eb-86af-b2616e1d88db")
+		)
+		(instances
+			(project "onyks-iot-inv-scanner"
+				(path "/37956750-1b3c-4b3f-94c5-40fd1631cd50"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 173.99 36.83 90)
 		(unit 1)
@@ -5641,6 +5868,74 @@
 			(project ""
 				(path "/37956750-1b3c-4b3f-94c5-40fd1631cd50"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 186.69 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40d86741-1c61-4cce-bc82-1781675a5a4f")
+		(property "Reference" "SW3"
+			(at 186.69 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TRIGGER"
+			(at 186.69 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 186.69 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ec682a7-2a11-44da-bfb2-4df03a9e40be")
+		)
+		(pin "2"
+			(uuid "ea658fc5-b96d-4c26-9857-6dea44eae4ab")
+		)
+		(instances
+			(project "onyks-iot-inv-scanner"
+				(path "/37956750-1b3c-4b3f-94c5-40fd1631cd50"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -6654,6 +6949,72 @@
 			(project "onyks-iot-inv-scanner"
 				(path "/37956750-1b3c-4b3f-94c5-40fd1631cd50"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5d94503-4fb7-4072-940b-13797c95898b")
+		(property "Reference" "#PWR074"
+			(at 176.53 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3990b94-a9e3-438a-9df6-4e7290fb0275")
+		)
+		(instances
+			(project "onyks-iot-inv-scanner"
+				(path "/37956750-1b3c-4b3f-94c5-40fd1631cd50"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -7796,7 +8157,7 @@
 	)
 	(sheet
 		(at 38.1 36.83)
-		(size 17.78 30.48)
+		(size 29.21 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7820,7 +8181,7 @@
 			)
 		)
 		(property "Sheetfile" "camera.kicad_sch"
-			(at 38.1 67.8946 0)
+			(at 38.1 70.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7839,7 +8200,7 @@
 			)
 		)
 		(pin "SCL_CAM" input
-			(at 38.1 41.91 180)
+			(at 38.1 43.18 180)
 			(uuid "56129f96-c51d-4461-820a-6e9e6c837027")
 			(effects
 				(font
@@ -7849,13 +8210,153 @@
 			)
 		)
 		(pin "SDA_CAM" input
-			(at 38.1 44.45 180)
+			(at 38.1 45.72 180)
 			(uuid "ddad2622-8997-4ec7-9ed3-4c4367d631cf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "CAM_COM2" output
+			(at 67.31 39.37 0)
+			(uuid "814a25bb-490d-44f2-9f55-4e18aadafd1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAM_COM3" output
+			(at 67.31 41.91 0)
+			(uuid "73c1b28f-d5ef-4446-878d-7f37b45e50d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAM_COM4" output
+			(at 67.31 44.45 0)
+			(uuid "318a67c8-405b-4137-86bd-0b3bac6d6b31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAM_COM5" output
+			(at 67.31 46.99 0)
+			(uuid "1e8f59a7-dea4-45b5-959a-2135c2db8d5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAM_COM6" output
+			(at 67.31 49.53 0)
+			(uuid "07cf3390-8850-4206-915c-f0402f0afc7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAM_COM7" output
+			(at 67.31 52.07 0)
+			(uuid "16f98e10-635b-4fbb-81aa-5dee700e0f57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAM_COM8" output
+			(at 67.31 54.61 0)
+			(uuid "fc25dbcb-4988-4bc4-91a6-5f810ad72d06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAM_COM9" output
+			(at 67.31 57.15 0)
+			(uuid "e9a9a36b-9151-456b-ab6e-512e5117e488")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAM_HREF" output
+			(at 67.31 60.96 0)
+			(uuid "751e7ca9-ee94-4195-89a6-f5e8a8fc0450")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAM_MCLK" input
+			(at 38.1 49.53 180)
+			(uuid "f13a9865-0b98-4097-a354-6d0713b62416")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAM_PCLK" output
+			(at 67.31 63.5 0)
+			(uuid "d7b7c78a-f83f-4b71-961e-135a23d243ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAM_PWDN" input
+			(at 38.1 52.07 180)
+			(uuid "8096e460-436f-486a-b869-42afc5af88ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAM_RESET" input
+			(at 38.1 54.61 180)
+			(uuid "119bf8a0-8822-4820-908b-500c728ddf28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAM_VSYNC" output
+			(at 67.31 66.04 0)
+			(uuid "98137bff-5d75-4daf-a583-3579d6d62ccc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
