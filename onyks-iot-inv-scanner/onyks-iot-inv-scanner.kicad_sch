@@ -3828,10 +3828,6 @@
 		(uuid "187361d0-5420-44a0-9fef-f66dd21602ad")
 	)
 	(no_connect
-		(at 234.95 45.72)
-		(uuid "27fd7bec-06af-446e-b28d-fb52d52339b8")
-	)
-	(no_connect
 		(at 43.18 158.75)
 		(uuid "2e9266a2-44a3-4a4f-be97-3fd477c9aa07")
 	)
@@ -4843,6 +4839,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 45.72) (xy 234.95 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6d845fc-0c4c-4060-9dba-2c5752c42aaa")
+	)
+	(wire
+		(pts
 			(xy 20.32 185.42) (xy 27.94 185.42)
 		)
 		(stroke
@@ -5290,6 +5296,16 @@
 			(justify right bottom)
 		)
 		(uuid "5e437b5a-bfbf-43c7-93c0-281c1d84f5e0")
+	)
+	(label "camera_enable"
+		(at 220.98 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ff93cb7-cc7c-4de6-a98b-e3f1584e49c4")
 	)
 	(label "CAM_PWDN"
 		(at 220.98 55.88 0)
